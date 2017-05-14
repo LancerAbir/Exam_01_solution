@@ -1,0 +1,153 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #626262;
+}    
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 1.714285714285714;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.blog-meta, .readmore-btn-blog {
+    font-family: 'Ubuntu', sans-serif;
+    color: #b4ad9e;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.readmore-btn-blog a {
+    color: #b4ad9e;
+}
+.mainmenu > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul li {
+    display: inline-block;
+    padding-left: 120px;
+    text-transform: uppercase;
+}
+.mainmenu ul li a {
+    display: block;
+    padding: 75px 0;
+    color: #626262
+}
+.logo {
+    padding: 75px 0;
+}
+
+.blog-box-contain  img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog-wrapper-item.big-bg-blog img {
+    margin-bottom: 90px;
+}
+
+
+
+
+.blog-wrapper-item {
+    margin-bottom: 120px;
+}
+.blog-wrapper-item a {
+    color: #626262;
+}
+.blog-wrapper-item h2 {
+    margin: 20px 0 25px;
+}
+.bog-contain p {
+    margin-bottom: 40px;
+}
+
+
+
+.newalatter-section {
+    background-color: #f0f0f0;
+    margin-bottom: 100px;
+    padding: 70px 0;
+    text-align: center;
+}
+.newalatter-section h2 {
+    color: #333333;
+    margin-bottom: 50px;
+}
+.newslatter-form {
+    border-bottom: 1px solid #333;
+    margin: 0 auto;
+    position: relative;
+    width: 360px;
+}
+.newslatter-form input {
+    background-color: #f0f0f0;
+    border: medium none;
+    width: 100%;
+}
+.newslatter-form button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+
+.loadmore-btn-blog {
+    border: 1px solid #626262;
+    color: #626262;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 90px;
+    padding: 20px 30px;
+}
+.fotter-area {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+.fotter-area ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.fotter-area ul li {
+    display: inline-block;
+    padding-right: 17px;
+}
+.fotter-area a {
+    color: #000000;
+}
+.fotter-area .text-right a {
+    padding-left: 15px;
+}
+
+
+
